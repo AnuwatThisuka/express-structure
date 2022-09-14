@@ -11,7 +11,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-    res.json({ message: "ok" });
+    res.json({ message: "Wellcome to Thailand" });
 });
 app.get("/test-api", (req, res) => {
     res.json({ message: "Wellcome to Thailand" });
