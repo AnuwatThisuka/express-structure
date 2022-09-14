@@ -1,5 +1,5 @@
 const db = require("./db");
-const helper = require("../helper");
+const helper = require("../helper/helper");
 const config = require("../config/config");
 
 async function getMultiple() {
